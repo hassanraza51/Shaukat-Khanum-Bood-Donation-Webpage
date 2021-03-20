@@ -1,0 +1,106 @@
+.img1{
+    margin-left: 10%;
+}
+.navbar{
+    overflow: hidden;
+    background-color:beige;
+    font-family: Arial;  
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 10%;
+  }
+  .dropdown,.dropdown2,.dropdown3,.dropdown4,.dropdown5,.dropdown6 {
+    float: left;
+    overflow: hidden;
+  }
+.dropdown .dropbutton,.dropdown2 .dropbutton2,.dropdown3 .dropbutton3,.dropdown4 .dropbutton4,
+.dropdown5 .dropbutton5,.dropdown6 .dropbutton6{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0;
+}  
+.About_Content,.Patient_Content,.Health_Content,.Donor_Content,.Join_Content,.Contact_Content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.About_Content a,.Patient_Content a,.Health_Content a,.Donor_Content a,.Join_Content a,.Contact_Content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+}
+.dropdown:hover .About_Content,.dropdown2:hover .Patient_Content,.dropdown3:hover .Health_Content,
+.dropdown4:hover .Donor_Content,.dropdown5:hover .Join_Content,.dropdown6:hover .Contact_Content{
+    display: block;
+}
+  .About_Content a:hover, .Patient_Content a:hover,.Health_Content a:hover,.Donor_Content a:hover,
+  .Join_Content a:hover,.Contact_Content a:hover {
+    background-color: #ddd;
+  }
+  .arrow{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down{      
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  h1{
+      padding-left: 15pt;
+  }
+  p{
+      font: 11  ;
+      font-family: Arial, Helvetica, sans-serif;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h3{
+      text-align: center;
+  }
+  tr{
+      border:black;
+      margin-bottom: 10px;
+      border-bottom: 2px solid;
+  }
+  button{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .L1 li{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+  }
+  aside{
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+  }
